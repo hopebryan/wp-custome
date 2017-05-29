@@ -1,0 +1,134 @@
+#contact {
+	background: #232323;
+	padding: 90px 0;
+	color: #fff;
+	h2{
+		padding-left: 14px;
+		color: #fff;
+	}
+	form p{
+		line-height: 2em;
+		padding-bottom: 15px;
+		margin: 0;
+		.form-name{
+			display: block;
+		    width: 100%;
+		    height: auto;
+		    padding: 15px 12px;
+		    font-size: 14px;
+		    line-height: 1.42857;
+		    color: #555555;
+		    background-color: #fafafa;
+		    background-image: none;
+		    border: 1px solid #ccc;
+		    border-radius: 5px;
+
+		}
+		.form-email{
+			display: block;
+		    width: 100%;
+		    height: auto;
+		    padding: 15px 12px;
+		    font-size: 14px;
+		    line-height: 1.42857;
+		    color: #555555;
+		    background-color: #fafafa;
+		    background-image: none;
+		    border: 1px solid #ccc;
+		    border-radius: 5px;
+
+		}
+		.form-message{
+			display: block;
+		    width: 100%;
+		    height: auto;
+		    padding: 15px 12px;
+		    font-size: 14px;
+		    line-height: 1.42857;
+		    color: #555555;
+		    background-color: #fafafa;
+		    background-image: none;
+		    border: 1px solid #ccc;
+		    border-radius: 5px;
+		}
+	}
+}
+
+	.social-media{
+		ul{
+			padding: 0;
+			margin: 20px 0;
+			display: block;
+			
+			@media screen and (max-width: 767px){
+				margin: 40px 0;
+			}
+
+
+			li{
+				list-style-type: none;
+				margin: 10px 0;
+				display: inline-block;
+    			padding: 0 5px;
+				a {
+					text-decoration: none;
+					color: #000;
+					.fa {
+						text-align: center;
+						width: 40px;
+						height: 40px;
+					    color: #fff;
+					    font-size: 22px;
+					    border-radius: 5px;
+					    padding: 12px;
+					    display: inline-block;
+					    vertical-align: text-bottom;
+					    &:hover{
+					    	background: #80c24f;}	
+					}
+
+					.fa-facebook {				
+						background: #346ea6;
+						content: '\f09a';
+						}
+
+					.fa-twitter {				
+						background: #4186cd;
+						content:  '\f0e1';
+						}
+					}
+				}
+			}
+		}
+
+
+
+@media (max-width: $screen-xs-max){
+	#contact 
+		{
+		padding: 10px 0;
+		color: #000;
+	}
+}
+
+
+
+@media screen and (max-width: 991px){ 
+	form{
+		.fanmail{
+			text-align: left;
+		}
+	}
+	.social-media{
+		margin-top: 20px;
+		ul{
+			display: inline-flex;
+			li{
+				padding: 0 30px; 
+			}
+			li:last-child, li:first-child{
+				padding: 0;
+			}
+		}
+	}
+}
